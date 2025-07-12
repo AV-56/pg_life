@@ -1,0 +1,102 @@
+.icon-img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border: 2px solid #ccc;
+  border-radius: 50%;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  background-color: #fff;
+}
+
+.icon-img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.icon-label {
+  font-weight: 500;
+  color: #114B5F;
+  font-size: 1rem;
+}
+
+
+.card {
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+
+.card {
+  border-radius: 0px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  overflow: hidden;
+  margin: 15px;
+}
+
+.card-body {
+  padding: 15px;
+}
+
+.room-image-container {
+  width: 200px;
+  height: 140px;
+  flex-shrink: 0;
+}
+
+.room-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0px;
+}
+
+.room-details {
+  flex: 1;
+}
+
+.heart-icon {
+  color: red;
+  font-size: 18px;
+}
+
+.gender-image {
+  width: 40px;
+  height: auto;
+}
+
+.price {
+  font-size: 16px;
+}
+
+.view-btn {
+  background-color: #114B5F;
+  color: #E4FDE1;
+  border: none;
+  padding: 6px 16px;
+  border-radius: 0px;
+  cursor: pointer;
+}
+
+.view-btn:hover {
+  background-color: #2aa;
+}
+
+.gender-icons {
+  display: flex;
+  align-items: center;
+}
+
+.gender-icon {
+  width: 40px;
+  height: auto;
+  margin: 0 5px;
+}
+
+.divider {
+  width: 1px;
+  height: 24px;
+  background-color: #ccc;
+}

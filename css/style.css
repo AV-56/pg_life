@@ -1,0 +1,127 @@
+html,body{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #114B5F;
+}
+.spacer-line {
+  width: 1px;
+  height: 20px;
+  background-color: #999;
+  margin: 0 10px;
+}
+.nav-anchor.nav-link {
+  color: #E4FDE1 !important;
+}
+
+.hero-section {
+  height: 65vh;
+  background-image: url('../img/bg.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* <- This makes the image stick while scrolling */
+  padding: 0 20px;
+  position: relative;
+  z-index: 1;
+}
+
+.hero-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust darkness */
+  z-index: -1; /* Puts it behind the content */
+}
+
+
+
+.search-box {
+  width: 100%;
+  max-width: 600px;
+}
+
+.search-box button {
+  background-color: #114B5F; /* Example: Bootstrap warning yellow */
+  color: white;
+  border: none;
+}
+.search-box button:hover{
+  background-color: #127b9e; /* Example: Bootstrap warning yellow */
+}
+
+.major-cities{
+    color: #114B5F;
+}
+
+.city-icon {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: white;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: box-shadow 0.3s ease, transform 0.3s ease; /* Smooth transition */
+}
+
+.city-icon:hover {
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.35); /* Stronger/larger shadow */
+  transform: scale(1.05); /* Optional: slight zoom effect */
+}
+
+
+.city-icon img {
+  width: 70%;
+  height: 70%;
+  object-fit: cover;
+}
+
+/* Footer  */
+footer{
+    background-color: #114B5F !important;
+    
+}
+
+.f-text{
+    color: #E4FDE1 !important;
+}
+
+.profile-heading {
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: #2d2d2d;
+}
+
+.profile-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px solid #ddd;
+  background-color: #f5f5f5;
+  object-fit: cover;
+}
+
+.profile-details p {
+  font-size: 1rem;
+  color: #555;
+}
+
+.edit-profile-link {
+  font-size: 0.9rem;
+  color: #000;
+  text-decoration: underline;
+  transition: color 0.2s ease;
+}
+
+.edit-profile-link:hover {
+  color: #114B5F;
+}
+
